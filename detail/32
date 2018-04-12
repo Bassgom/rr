@@ -15,23 +15,23 @@
     <script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63659175879465&amp;domain=sp.pf.mbga.jp&amp;mask=111" nonce="467e5b080ad5453b88f71b83e7997871" type="text/javascript"></script>
 
     <!-- End: injected by Adguard -->
-    <link rel="stylesheet" href='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Fgame%2Fpex.css%3Fv%3D20170809173112' media="all">
-    <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fjquery-2.2.2.min.js%3Fversion%3D2_2_2%26v%3D20170809174656'></script>
-    <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Filibrary.js%3Fv%3D20180331174250'></script>
-    <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpex-petit-1.2.0.js%3Fv%3D20170809174705'></script>
-    <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpex_common.js%3Fv%3D20170809174705'></script>
-    <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fmin%2Fpetit_manager.min.js%3Fv%3D20180402144659'></script>
-    <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fmin%2Frefresh_room.min.js%3Fv%3D20180402144659'></script>
+    <link rel="stylesheet" href='../../12008305/css/game/pex.css' media="all">
+    <script src='../../12008305/js/jquery-2.2.2.min.js'></script>
+    <script src='../../12008305/js/ilibrary.js'></script>
+    <script src='../../12008305/js/pex-petit-1.2.0.js'></script>
+    <script src='../../12008305/js/pex_common.js'></script>
+    <script src='../../12008305/js/min/petit_manager.min.js'></script>
+    <script src='../../12008305/js/min/refresh_room.min.js'></script>
     <title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
-    <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Frefresh_room.css%3Fv%3D20180228174446" media="all">
+    <link rel="stylesheet" type="text/css" href="../../12008305/css/rich/refresh_room.css" media="all">
     <script type='text/javascript'>
         var se_flg = 0,
             bgm_flg = 0,
             chrome_app_flg = 0,
             chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
     </script>
-    <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fapp_sound.js%3Fv%3D20170809174653'></script>
-    <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116" />
+    <script type='text/javascript' src='../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../css/base.css?20171116" />
 </head>
 
 <body>
@@ -39,8 +39,8 @@
         <section id="pageContainer" class="m-Btm0">
             <div id="bg_space" class="large-size"></div>
             <div id="jsEyeCatch">
-                <div style="margin-top:120px"><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Fworking_1.gif%3Fv%3D20170809174620' width="195" height="139"></div>
-                <div style="margin-top:-80px"><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Floading.gif%3Fv%3D20170809174620' width="102" height="102"></div>
+                <div style="margin-top:120px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif' width="195" height="139"></div>
+                <div style="margin-top:-80px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/loading.gif' width="102" height="102"></div>
             </div>
             <div class="effect-container large-size">
                 <div id="animation-container"></div>
@@ -79,7 +79,7 @@
             refreshRoom.old_os = ua.match(/(OS [3-7]|Android [2-4])/);
             refreshRoom.is_multiply = false;
             refreshRoom.returnUrl = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Frefresh_room%2Findex%2F0%3Fname%3D%26l_frm%3DRefresh_room_1%26rnd%3D777513421';
-            refreshRoom.dialogueSwf = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Frefresh_room%2Fpetit_refresh_room_balloon_swf%3Fl_frm%3DRefresh_room_1%26rnd%3D58773123';
+            refreshRoom.dialogueSwf = '../../petit_refresh_room_balloon_swf';
             refreshRoom.data = {
                 "id": "32",
                 "refresh_room_id": "32",
@@ -955,9 +955,8 @@
             };
             petitManager.setWidth(refreshRoom.dialogue.scaleSizeCheck(refreshRoom.is_pc));
             refreshRoom.bg_list = {
-                "1": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fbg%2Fbg1.jpg%3Fv%3D20171128144514",
-                "": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fbg%2Fbg.jpg%3Fv%3D19700101090000"
-            };
+                "1": "../../12008305/image_sp/ui/refresh_room/bg/bg1.jpg",
+                "": "../../12008305/image_sp/ui/refresh_room/bg/bg.jpg"            };
             var image = new Image;
             var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
             var size = refreshRoom.dialogue.scaleSizeCheck() * multiply;
