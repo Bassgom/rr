@@ -56,10 +56,10 @@
             </div>
             <div id="name-plate" rel="2" class="large-size">
                 <div class="plate-area" rel="1">
-                    <img class="plate" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F162.png%3Fv%3D20171128144514'>
+                    <img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/162.png'>
                 </div>
                 <div class="plate-area" rel="2">
-                    <img class="plate" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F193.png%3Fv%3D20171128144514'>
+                    <img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/193.png'>
                 </div>
             </div>
             <a id="next" class="next large-size" href="#"></a>
@@ -114,9 +114,9 @@
                         "breast_size": "3",
                         "short_name": "\u82b3\u4e43",
                         "image_url_list": {
-                            "expression_1096": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fexpression%2F1096.js%3Fv%3D20170809174700",
-                            "hair_10096": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhair%2F10096.js%3Fv%3D20170809174700",
-                            "costume_2_20096": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcostume%2F2%2F20096.js%3Fv%3D20170809174658"
+                            "expression_1096": "../../12008305/js/petit_cg/expression/1096.js",
+                            "hair_10096": "../../12008305/js/petit_cg/hair/10096.js",
+                            "costume_2_20096": "../../12008305/js/petit_cg/costume/2/20096.js"
                         },
                         "sub_type_list": {
                             "head": null,
@@ -144,9 +144,9 @@
                         "breast_size": "3",
                         "short_name": "\u5df4",
                         "image_url_list": {
-                            "expression_1077": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fexpression%2F1077.js%3Fv%3D20170809174700",
-                            "hair_10077": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhair%2F10077.js%3Fv%3D20170809174700",
-                            "costume_2_20077": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcostume%2F2%2F20077.js%3Fv%3D20170809174658"
+                            "expression_1077": "../../12008305/js/petit_cg/expression/1077.js",
+                            "hair_10077": "../../12008305/js/petit_cg/hair/10077.js",
+                            "costume_2_20077": "../../12008305/js/petit_cg/costume/2/20077.js"
                         },
                         "sub_type_list": {
                             "head": null,
